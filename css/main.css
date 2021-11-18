@@ -1,0 +1,175 @@
+.bg-gradient {
+    background-image: var(--bs-gradient);
+}
+
+
+.w-custom {
+    width: 67%;
+}
+
+.custom-pad {
+    padding: 8px 0 0 0;
+}
+
+/* MUSIC PLAYER */
+
+iframe, .frame-player {
+    height: 1.3rem;
+    width: 23em;
+    position:absolute;
+    left:0;
+    /* font-size: .7rem; */
+}
+
+#musicplayer{
+    position:absolute;
+    left:0;
+    font-size: .7rem;
+    padding-top: 3px;
+    margin-top: 10px;
+}
+
+#songinfo {
+    margin-left: 1rem; 
+}
+
+.media-button {
+    font-size: 1rem;
+    color:rgb(17, 126, 2);
+    filter: drop-shadow(0 0 0 black);
+    transition: filter 0.2s;
+}
+
+.media-button:hover{
+    filter: drop-shadow(0 0 0.2rem crimson);
+}
+
+/* ADVENT */
+.countdown-text{
+    font-size: 1.75rem;
+    font-weight: bold;
+    color:rgb(1, 128, 1);
+}
+.advent {
+    background-color: rgba(255,255,255,1);
+    font-size: 2rem;
+    color: green;
+    text-shadow: 0 0 3px #c00606;
+    box-shadow: 0 0 5px black;
+    transition: text-shadow 0.5s, transform .25s;
+    margin: .5rem;
+}
+.advent:hover{
+    color:#c00606;
+    border-color: #057915;
+    text-shadow: 0 0 25px gold;
+    box-shadow: 0 0 5px rgb(0, 185, 25);
+    transform: scale(1.05);
+}
+
+.advent-shadow {
+    background-image: none;
+}
+
+.advent-image {
+    max-height: 5rem;
+    width:auto;
+}
+
+.advent-bg{
+    padding-bottom: 6rem;
+    background-image:url("../img/cal/day25.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:4.5rem;
+    
+}
+
+.advent-page-bg{
+    height: 100vh;
+    /* background-image:url("../img/cal/day25.jpg"); */
+    background-image: linear-gradient( rgb(1, 128, 1), rgb(3, 26, 0));
+    background-repeat:no-repeat;
+    background-position: top;
+}
+
+#day17 {
+    width: 4.5rem;
+    height: auto;
+}
+
+#day1.advent-bg{
+    background-image:url("");
+}
+#day2.advent-bg{
+    background-image:url("");
+}
+#day3.advent-bg{
+    background-image:url("");
+}
+#day4.advent-bg{
+    background-image:url("");
+}
+#day5.advent-bg{
+    background-image:url("");
+}
+#day6.advent-bg{
+    background-image:url("");
+}
+#day7.advent-bg{
+    background-image:url("");
+}
+#day8.advent-bg{
+    background-image:url("");
+}
+#day9.advent-bg{
+    background-image:url("");
+}
+#day10.advent-bg{
+    background-image:url("");
+}
+#day11.advent-bg{
+    background-image:url("");
+}
+#day12.advent-bg{
+    background-image:url("");
+}
+#day13.advent-bg{
+    background-image:url("");
+}
+#day14.advent-bg{
+    background-image:url("");
+}
+#day15.advent-bg{
+    background-image:url("");
+}
+#day16.advent-bg{
+    background-image:url("");
+}
+#day17.advent-bg{
+    background-image:url("../img/cal/day17.png");
+}
+#day18.advent-bg{
+    background-image:url("");
+}
+#day19.advent-bg{
+    background-image:url("");
+}
+#day20.advent-bg{
+    background-image:url("");
+}
+#day21.advent-bg{
+    background-image:url("");
+}
+#day22.advent-bg{
+    background-image:url("");
+}
+#day23.advent-bg{
+    background-image:url("");
+}
+#day24.advent-bg{
+    background-image:url("");
+}
+#day25.advent-bg{
+    background-image:url("../img/cal/day25.jpg");
+}
